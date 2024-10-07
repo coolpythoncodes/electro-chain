@@ -1,0 +1,48 @@
+{
+    "navlinks": [
+      {
+        "link": "/",
+        "label": "Home"
+      },
+      {
+        "link": "/dashboard",
+        "label": "Dashboard"
+      },
+      {
+        "link": "#works",
+        "label": "How it works"
+      }
+    ],
+    "footerLinks": [
+      {
+        "text": "Privacy Policy",
+        "url": "/"
+      },
+      {
+        "text": "Terms and Conditions",
+        "url": "/"
+      },
+      {
+        "text": "Admin",
+        "url": "/admin-login"
+      },
+      {
+        "text": "Auth",
+        "url": "/admin/auth-voter"
+      }
+    ],
+    "authRoutes": {
+      "verify": "/verify"
+    },
+    "main": {
+      "dashboard": "/dashboard",
+      "results": "/results"
+    },
+    "dashboardNavLinks": [
+      {
+        "link": "/dashboard",
+        "label": "election"
+      }
+    ]
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "features": [
+        {
+            "title": "transparency",
+            "description": "Every vote is visible on the blockchain and audited by authorized entities."
+        },
+        {
+            "title": "security",
+            "description": "Blockchain and ZK technology protect votes and maintain voter anonymity"
+        },
+        {
+            "title": "accessibility",
+            "description": "Cast your vote from anywhere, even via USSD."
+        }
+    ],
+    "howElectrochainWorks": [
+        {
+            "title": "Protected Voter Verification",
+            "description": "Voters are securely authenticated using their VIN, NIN, and biometric data."
+        }
+    ]
+}
