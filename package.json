@@ -1,0 +1,20 @@
+{
+  "name": "electrochain",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev --scope \"@electrochain/frontend\"",
+    "build": "lerna run build --scope \"@electrochain/frontend\"",
+    "start": "lerna run start --scope \"@electrochain/frontend\"",
+    "prettier": "lerna run prettier --scope \"@electrochain/frontend\"",
+    "lint": "lerna run lint --scope \"@electrochain/frontend\"",
+    "lint-staged": "lerna run lint-staged --scope \"@electrochain/frontend\"",
+    "copy-env": "lerna run copy-env --scope \"@electrochain/frontend\""
+  },
+  "dependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "is-ci": "^3.0.1",
+    "lerna": "^8.1.8"
+  }
+}
